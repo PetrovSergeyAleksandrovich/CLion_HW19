@@ -115,17 +115,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CLion_HW19
+# Target rules for targets named CLion_HW19_main
 
 # Build rule for target.
-CLion_HW19: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CLion_HW19
-.PHONY : CLion_HW19
+CLion_HW19_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CLion_HW19_main
+.PHONY : CLion_HW19_main
 
 # fast build rule for target.
-CLion_HW19\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19.dir\build
-.PHONY : CLion_HW19\fast
+CLion_HW19_main\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_main.dir\build
+.PHONY : CLion_HW19_main\fast
+
+#=============================================================================
+# Target rules for targets named CLion_HW19_Speedometer
+
+# Build rule for target.
+CLion_HW19_Speedometer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CLion_HW19_Speedometer
+.PHONY : CLion_HW19_Speedometer
+
+# fast build rule for target.
+CLion_HW19_Speedometer\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\build
+.PHONY : CLion_HW19_Speedometer\fast
+
+HW_19+4_Speedometer.obj: HW_19+4_Speedometer.cpp.obj
+
+.PHONY : HW_19+4_Speedometer.obj
+
+# target to build an object file
+HW_19+4_Speedometer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\HW_19+4_Speedometer.cpp.obj
+.PHONY : HW_19+4_Speedometer.cpp.obj
+
+HW_19+4_Speedometer.i: HW_19+4_Speedometer.cpp.i
+
+.PHONY : HW_19+4_Speedometer.i
+
+# target to preprocess a source file
+HW_19+4_Speedometer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\HW_19+4_Speedometer.cpp.i
+.PHONY : HW_19+4_Speedometer.cpp.i
+
+HW_19+4_Speedometer.s: HW_19+4_Speedometer.cpp.s
+
+.PHONY : HW_19+4_Speedometer.s
+
+# target to generate assembly for a file
+HW_19+4_Speedometer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\HW_19+4_Speedometer.cpp.s
+.PHONY : HW_19+4_Speedometer.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -133,7 +173,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19.dir\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_main.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -142,7 +182,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19.dir\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_main.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +191,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19.dir\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_main.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +202,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CLion_HW19
+	@echo ... CLion_HW19_Speedometer
+	@echo ... CLion_HW19_main
+	@echo ... HW_19+4_Speedometer.obj
+	@echo ... HW_19+4_Speedometer.i
+	@echo ... HW_19+4_Speedometer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -3,4 +3,5 @@ project(CLion_HW19)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CLion_HW19 main.cpp)
+add_executable(CLion_HW19_main main.cpp)
+add_executable(CLion_HW19_Speedometer HW_19+4_Speedometer.cpp)

@@ -80,17 +80,38 @@ CMakeFiles\CLion_HW19.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLion_HW19.dir\main.cpp.s /c C:\Users\Poizone\CLionProjects\CLion_HW19\main.cpp
 <<
 
+CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.obj: CMakeFiles\CLion_HW19.dir\flags.make
+CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.obj: ..\HW_19+4_Speedometer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLion_HW19.dir/HW_19+4_Speedometer.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.obj /FdCMakeFiles\CLion_HW19.dir\ /FS -c C:\Users\Poizone\CLionProjects\CLion_HW19\HW_19+4_Speedometer.cpp
+<<
+
+CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLion_HW19.dir/HW_19+4_Speedometer.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Poizone\CLionProjects\CLion_HW19\HW_19+4_Speedometer.cpp
+<<
+
+CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLion_HW19.dir/HW_19+4_Speedometer.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.s /c C:\Users\Poizone\CLionProjects\CLion_HW19\HW_19+4_Speedometer.cpp
+<<
+
 # Object files for target CLion_HW19
 CLion_HW19_OBJECTS = \
-"CMakeFiles\CLion_HW19.dir\main.cpp.obj"
+"CMakeFiles\CLion_HW19.dir\main.cpp.obj" \
+"CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.obj"
 
 # External object files for target CLion_HW19
 CLion_HW19_EXTERNAL_OBJECTS =
 
 CLion_HW19.exe: CMakeFiles\CLion_HW19.dir\main.cpp.obj
+CLion_HW19.exe: CMakeFiles\CLion_HW19.dir\HW_19+4_Speedometer.cpp.obj
 CLion_HW19.exe: CMakeFiles\CLion_HW19.dir\build.make
 CLion_HW19.exe: CMakeFiles\CLion_HW19.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CLion_HW19.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CLion_HW19.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CLion_HW19.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CLion_HW19.dir\objects1.rsp @<<
  /out:CLion_HW19.exe /implib:CLion_HW19.lib /pdb:C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CLion_HW19.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

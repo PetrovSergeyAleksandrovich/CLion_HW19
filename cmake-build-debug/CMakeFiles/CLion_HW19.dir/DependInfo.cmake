@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Poizone/CLionProjects/CLion_HW19/HW_19+4_Speedometer.cpp" "C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/CLion_HW19.dir/HW_19+4_Speedometer.cpp.obj"
   "C:/Users/Poizone/CLionProjects/CLion_HW19/main.cpp" "C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/CLion_HW19.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
