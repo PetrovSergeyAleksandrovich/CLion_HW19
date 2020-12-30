@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Shivatel-drobnikh-chisel-task2.dir/DependInfo.cmake"
   "CMakeFiles/CLion_HW19_main.dir/DependInfo.cmake"
   "CMakeFiles/CLion_HW19_Speedometer.dir/DependInfo.cmake"
   )

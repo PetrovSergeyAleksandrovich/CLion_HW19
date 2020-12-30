@@ -115,6 +115,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Shivatel-drobnikh-chisel-task2
+
+# Build rule for target.
+Shivatel-drobnikh-chisel-task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Shivatel-drobnikh-chisel-task2
+.PHONY : Shivatel-drobnikh-chisel-task2
+
+# fast build rule for target.
+Shivatel-drobnikh-chisel-task2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build
+.PHONY : Shivatel-drobnikh-chisel-task2\fast
+
+#=============================================================================
 # Target rules for targets named CLion_HW19_main
 
 # Build rule for target.
@@ -167,6 +180,33 @@ HW_19+4_Speedometer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\HW_19+4_Speedometer.cpp.s
 .PHONY : HW_19+4_Speedometer.cpp.s
 
+Shivatel_drobnikh_chisel_task2.obj: Shivatel_drobnikh_chisel_task2.cpp.obj
+
+.PHONY : Shivatel_drobnikh_chisel_task2.obj
+
+# target to build an object file
+Shivatel_drobnikh_chisel_task2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\Shivatel_drobnikh_chisel_task2.cpp.obj
+.PHONY : Shivatel_drobnikh_chisel_task2.cpp.obj
+
+Shivatel_drobnikh_chisel_task2.i: Shivatel_drobnikh_chisel_task2.cpp.i
+
+.PHONY : Shivatel_drobnikh_chisel_task2.i
+
+# target to preprocess a source file
+Shivatel_drobnikh_chisel_task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\Shivatel_drobnikh_chisel_task2.cpp.i
+.PHONY : Shivatel_drobnikh_chisel_task2.cpp.i
+
+Shivatel_drobnikh_chisel_task2.s: Shivatel_drobnikh_chisel_task2.cpp.s
+
+.PHONY : Shivatel_drobnikh_chisel_task2.s
+
+# target to generate assembly for a file
+Shivatel_drobnikh_chisel_task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\Shivatel_drobnikh_chisel_task2.cpp.s
+.PHONY : Shivatel_drobnikh_chisel_task2.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -204,9 +244,13 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CLion_HW19_Speedometer
 	@echo ... CLion_HW19_main
+	@echo ... Shivatel-drobnikh-chisel-task2
 	@echo ... HW_19+4_Speedometer.obj
 	@echo ... HW_19+4_Speedometer.i
 	@echo ... HW_19+4_Speedometer.s
+	@echo ... Shivatel_drobnikh_chisel_task2.obj
+	@echo ... Shivatel_drobnikh_chisel_task2.i
+	@echo ... Shivatel_drobnikh_chisel_task2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
