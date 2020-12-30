@@ -60,17 +60,6 @@ CMAKE_BINARY_DIR = C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache\fast: edit_cache
-
-.PHONY : edit_cache\fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -81,6 +70,17 @@ rebuild_cache:
 rebuild_cache\fast: rebuild_cache
 
 .PHONY : rebuild_cache\fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache\fast: edit_cache
+
+.PHONY : edit_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -153,6 +153,19 @@ CLion_HW19_Speedometer\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\build
 .PHONY : CLion_HW19_Speedometer\fast
 
+#=============================================================================
+# Target rules for targets named Kalkulator_task_3
+
+# Build rule for target.
+Kalkulator_task_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Kalkulator_task_3
+.PHONY : Kalkulator_task_3
+
+# fast build rule for target.
+Kalkulator_task_3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\build
+.PHONY : Kalkulator_task_3\fast
+
 HW_19+4_Speedometer.obj: HW_19+4_Speedometer.cpp.obj
 
 .PHONY : HW_19+4_Speedometer.obj
@@ -179,6 +192,33 @@ HW_19+4_Speedometer.s: HW_19+4_Speedometer.cpp.s
 HW_19+4_Speedometer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_Speedometer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_Speedometer.dir\HW_19+4_Speedometer.cpp.s
 .PHONY : HW_19+4_Speedometer.cpp.s
+
+Kalkulator_task_3.obj: Kalkulator_task_3.cpp.obj
+
+.PHONY : Kalkulator_task_3.obj
+
+# target to build an object file
+Kalkulator_task_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\Kalkulator_task_3.cpp.obj
+.PHONY : Kalkulator_task_3.cpp.obj
+
+Kalkulator_task_3.i: Kalkulator_task_3.cpp.i
+
+.PHONY : Kalkulator_task_3.i
+
+# target to preprocess a source file
+Kalkulator_task_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\Kalkulator_task_3.cpp.i
+.PHONY : Kalkulator_task_3.cpp.i
+
+Kalkulator_task_3.s: Kalkulator_task_3.cpp.s
+
+.PHONY : Kalkulator_task_3.s
+
+# target to generate assembly for a file
+Kalkulator_task_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\Kalkulator_task_3.cpp.s
+.PHONY : Kalkulator_task_3.cpp.s
 
 Shivatel_drobnikh_chisel_task2.obj: Shivatel_drobnikh_chisel_task2.cpp.obj
 
@@ -244,10 +284,14 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CLion_HW19_Speedometer
 	@echo ... CLion_HW19_main
+	@echo ... Kalkulator_task_3
 	@echo ... Shivatel-drobnikh-chisel-task2
 	@echo ... HW_19+4_Speedometer.obj
 	@echo ... HW_19+4_Speedometer.i
 	@echo ... HW_19+4_Speedometer.s
+	@echo ... Kalkulator_task_3.obj
+	@echo ... Kalkulator_task_3.i
+	@echo ... Kalkulator_task_3.s
 	@echo ... Shivatel_drobnikh_chisel_task2.obj
 	@echo ... Shivatel_drobnikh_chisel_task2.i
 	@echo ... Shivatel_drobnikh_chisel_task2.s

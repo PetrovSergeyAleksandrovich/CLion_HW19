@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Shivatel-drobnikh-chisel-task2.dir/DependInfo.cmake"
   "CMakeFiles/CLion_HW19_main.dir/DependInfo.cmake"
   "CMakeFiles/CLion_HW19_Speedometer.dir/DependInfo.cmake"
+  "CMakeFiles/Kalkulator_task_3.dir/DependInfo.cmake"
   )

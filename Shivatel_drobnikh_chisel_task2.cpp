@@ -5,7 +5,9 @@ int main()
 {
     std::string var;
     std::stringstream text_buf;
-    double output, test_ref_1=1.1, test_ref_2=0.001;
+    double output,
+    test_ref_1=1.1,
+    test_ref_2=0.001;
 
     std::cout << "Type first part: ";
     std::cin >> var;
