@@ -1,12 +1,16 @@
-#include <sstream>
+#include <cstring>
 #include <iostream>
+#include <string>
 
-int main(int argc, char* argv[])
+
+int main()
 {
-    std::stringstream ss;
-    ss << "22";
-    int k = 0;
-    ss >> k;
-    std::cout << k << std::endl;
-    return 0;
+    std::string var;
+    char text_buf[100];
+    double a=5, b=2, output;
+    char symbol='+';
+
+    std::cout << a << symbol << b;
+
+    return 1234;
 }
