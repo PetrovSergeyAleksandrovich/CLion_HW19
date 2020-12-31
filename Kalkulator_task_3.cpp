@@ -19,6 +19,7 @@ int main()
     {
         if(text_buf[i] < '0' || text_buf[i] > '9')
         {
+            if(text_buf[i] == '.') continue; //make available to type double numbers into equation
             symbol = text_buf[i];
             text_buf[i] = ' ';
             break;
@@ -33,14 +34,14 @@ int main()
     {
         a_buf[i] = text_buf[i];
         space_counter = i+1;
-        //std::cout << "a_buf : " << a_buf << std::endl;
+        std::cout << "a_buf : " << a_buf << std::endl;
     }
 
     //check second digit
     for(int i = space_counter+1; i < std::strlen(text_buf); i++)
     {
         b_buf[i-space_counter-1] = text_buf[i];
-        //std::cout << "b_buf : " << b_buf << std::endl;
+        std::cout << "b_buf : " << b_buf << std::endl;
     }
 
     a = atof(a_buf);
