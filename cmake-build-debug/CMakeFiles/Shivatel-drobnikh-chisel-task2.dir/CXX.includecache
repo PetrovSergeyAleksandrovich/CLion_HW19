@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Poizone/CLionProjects/CLion_HW19/Shivatel_drobnikh_chisel_task2.cpp
+sstream
+-
+iostream
+-
+
