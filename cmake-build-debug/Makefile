@@ -115,6 +115,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Kalkulator_task_3_v2
+
+# Build rule for target.
+Kalkulator_task_3_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Kalkulator_task_3_v2
+.PHONY : Kalkulator_task_3_v2
+
+# fast build rule for target.
+Kalkulator_task_3_v2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3_v2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3_v2.dir\build
+.PHONY : Kalkulator_task_3_v2\fast
+
+#=============================================================================
 # Target rules for targets named Shivatel-drobnikh-chisel-task2
 
 # Build rule for target.
@@ -233,6 +246,33 @@ Kalkulator_task_3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\Kalkulator_task_3.cpp.s
 .PHONY : Kalkulator_task_3.cpp.s
 
+Kalkulator_task_3_v2.obj: Kalkulator_task_3_v2.cpp.obj
+
+.PHONY : Kalkulator_task_3_v2.obj
+
+# target to build an object file
+Kalkulator_task_3_v2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3_v2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3_v2.dir\Kalkulator_task_3_v2.cpp.obj
+.PHONY : Kalkulator_task_3_v2.cpp.obj
+
+Kalkulator_task_3_v2.i: Kalkulator_task_3_v2.cpp.i
+
+.PHONY : Kalkulator_task_3_v2.i
+
+# target to preprocess a source file
+Kalkulator_task_3_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3_v2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3_v2.dir\Kalkulator_task_3_v2.cpp.i
+.PHONY : Kalkulator_task_3_v2.cpp.i
+
+Kalkulator_task_3_v2.s: Kalkulator_task_3_v2.cpp.s
+
+.PHONY : Kalkulator_task_3_v2.s
+
+# target to generate assembly for a file
+Kalkulator_task_3_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3_v2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3_v2.dir\Kalkulator_task_3_v2.cpp.s
+.PHONY : Kalkulator_task_3_v2.cpp.s
+
 Shivatel_drobnikh_chisel_task2.obj: Shivatel_drobnikh_chisel_task2.cpp.obj
 
 .PHONY : Shivatel_drobnikh_chisel_task2.obj
@@ -325,6 +365,7 @@ help:
 	@echo ... CLion_HW19_Speedometer
 	@echo ... CLion_HW19_main
 	@echo ... Kalkulator_task_3
+	@echo ... Kalkulator_task_3_v2
 	@echo ... Shivatel-drobnikh-chisel-task2
 	@echo ... piano_task_4
 	@echo ... HW_19+4_Speedometer.obj
@@ -333,6 +374,9 @@ help:
 	@echo ... Kalkulator_task_3.obj
 	@echo ... Kalkulator_task_3.i
 	@echo ... Kalkulator_task_3.s
+	@echo ... Kalkulator_task_3_v2.obj
+	@echo ... Kalkulator_task_3_v2.i
+	@echo ... Kalkulator_task_3_v2.s
 	@echo ... Shivatel_drobnikh_chisel_task2.obj
 	@echo ... Shivatel_drobnikh_chisel_task2.i
 	@echo ... Shivatel_drobnikh_chisel_task2.s
