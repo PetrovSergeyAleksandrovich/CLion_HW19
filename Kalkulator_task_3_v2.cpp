@@ -24,8 +24,8 @@ int main()
                 if(equation[i]=='.') {buf << equation[i]; continue;}
                 buf << " ";
                 buf << equation[i];
-                i++;
                 buf << " ";
+                continue;
             }
         }
         buf << equation[i];
