@@ -166,6 +166,19 @@ Kalkulator_task_3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Kalkulator_task_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Kalkulator_task_3.dir\build
 .PHONY : Kalkulator_task_3\fast
 
+#=============================================================================
+# Target rules for targets named piano_task_4
+
+# Build rule for target.
+piano_task_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) piano_task_4
+.PHONY : piano_task_4
+
+# fast build rule for target.
+piano_task_4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\build
+.PHONY : piano_task_4\fast
+
 HW_19+4_Speedometer.obj: HW_19+4_Speedometer.cpp.obj
 
 .PHONY : HW_19+4_Speedometer.obj
@@ -274,6 +287,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLion_HW19_main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CLion_HW19_main.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+piano_task_4.obj: piano_task_4.cpp.obj
+
+.PHONY : piano_task_4.obj
+
+# target to build an object file
+piano_task_4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\piano_task_4.cpp.obj
+.PHONY : piano_task_4.cpp.obj
+
+piano_task_4.i: piano_task_4.cpp.i
+
+.PHONY : piano_task_4.i
+
+# target to preprocess a source file
+piano_task_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\piano_task_4.cpp.i
+.PHONY : piano_task_4.cpp.i
+
+piano_task_4.s: piano_task_4.cpp.s
+
+.PHONY : piano_task_4.s
+
+# target to generate assembly for a file
+piano_task_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\piano_task_4.cpp.s
+.PHONY : piano_task_4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -286,6 +326,7 @@ help:
 	@echo ... CLion_HW19_main
 	@echo ... Kalkulator_task_3
 	@echo ... Shivatel-drobnikh-chisel-task2
+	@echo ... piano_task_4
 	@echo ... HW_19+4_Speedometer.obj
 	@echo ... HW_19+4_Speedometer.i
 	@echo ... HW_19+4_Speedometer.s
@@ -298,6 +339,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... piano_task_4.obj
+	@echo ... piano_task_4.i
+	@echo ... piano_task_4.s
 .PHONY : help
 
 

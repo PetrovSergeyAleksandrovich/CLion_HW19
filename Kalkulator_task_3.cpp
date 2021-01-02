@@ -26,8 +26,6 @@ int main()
         }
         if(text_buf[i] == ' ') break;
     }
-    //std::cout << "String buffer has " << text_buf << " digits " << std::endl;
-    //std::cout << "Operator is " << symbol <<std::endl;
 
     //check first digit
     for(int i = 0; text_buf[i] != ' '; i++)
