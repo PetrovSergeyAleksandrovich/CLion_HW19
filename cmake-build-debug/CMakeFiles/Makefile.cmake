@@ -53,4 +53,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CLion_HW19_Speedometer.dir/DependInfo.cmake"
   "CMakeFiles/Kalkulator_task_3.dir/DependInfo.cmake"
   "CMakeFiles/piano_task_4.dir/DependInfo.cmake"
+  "CMakeFiles/Smart_Home_task_5.dir/DependInfo.cmake"
   )

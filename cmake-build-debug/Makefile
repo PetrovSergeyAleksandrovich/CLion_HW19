@@ -60,17 +60,6 @@ CMAKE_BINARY_DIR = C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -81,6 +70,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -192,6 +192,19 @@ piano_task_4\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\build
 .PHONY : piano_task_4\fast
 
+#=============================================================================
+# Target rules for targets named Smart_Home_task_5
+
+# Build rule for target.
+Smart_Home_task_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Smart_Home_task_5
+.PHONY : Smart_Home_task_5
+
+# fast build rule for target.
+Smart_Home_task_5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\build
+.PHONY : Smart_Home_task_5\fast
+
 HW_19+4_Speedometer.obj: HW_19+4_Speedometer.cpp.obj
 
 .PHONY : HW_19+4_Speedometer.obj
@@ -300,6 +313,33 @@ Shivatel_drobnikh_chisel_task2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Shivatel-drobnikh-chisel-task2.dir\Shivatel_drobnikh_chisel_task2.cpp.s
 .PHONY : Shivatel_drobnikh_chisel_task2.cpp.s
 
+Smart_Home_task_5.obj: Smart_Home_task_5.cpp.obj
+
+.PHONY : Smart_Home_task_5.obj
+
+# target to build an object file
+Smart_Home_task_5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\Smart_Home_task_5.cpp.obj
+.PHONY : Smart_Home_task_5.cpp.obj
+
+Smart_Home_task_5.i: Smart_Home_task_5.cpp.i
+
+.PHONY : Smart_Home_task_5.i
+
+# target to preprocess a source file
+Smart_Home_task_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\Smart_Home_task_5.cpp.i
+.PHONY : Smart_Home_task_5.cpp.i
+
+Smart_Home_task_5.s: Smart_Home_task_5.cpp.s
+
+.PHONY : Smart_Home_task_5.s
+
+# target to generate assembly for a file
+Smart_Home_task_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\Smart_Home_task_5.cpp.s
+.PHONY : Smart_Home_task_5.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -367,6 +407,7 @@ help:
 	@echo ... Kalkulator_task_3
 	@echo ... Kalkulator_task_3_v2
 	@echo ... Shivatel-drobnikh-chisel-task2
+	@echo ... Smart_Home_task_5
 	@echo ... piano_task_4
 	@echo ... HW_19+4_Speedometer.obj
 	@echo ... HW_19+4_Speedometer.i
@@ -380,6 +421,9 @@ help:
 	@echo ... Shivatel_drobnikh_chisel_task2.obj
 	@echo ... Shivatel_drobnikh_chisel_task2.i
 	@echo ... Shivatel_drobnikh_chisel_task2.s
+	@echo ... Smart_Home_task_5.obj
+	@echo ... Smart_Home_task_5.i
+	@echo ... Smart_Home_task_5.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

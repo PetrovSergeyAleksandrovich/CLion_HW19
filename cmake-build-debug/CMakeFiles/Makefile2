@@ -63,6 +63,7 @@ all: CMakeFiles\CLion_HW19_main.dir\all
 all: CMakeFiles\CLion_HW19_Speedometer.dir\all
 all: CMakeFiles\Kalkulator_task_3.dir\all
 all: CMakeFiles\piano_task_4.dir\all
+all: CMakeFiles\Smart_Home_task_5.dir\all
 
 .PHONY : all
 
@@ -78,6 +79,7 @@ clean: CMakeFiles\CLion_HW19_main.dir\clean
 clean: CMakeFiles\CLion_HW19_Speedometer.dir\clean
 clean: CMakeFiles\Kalkulator_task_3.dir\clean
 clean: CMakeFiles\piano_task_4.dir\clean
+clean: CMakeFiles\Smart_Home_task_5.dir\clean
 
 .PHONY : clean
 
@@ -223,7 +225,7 @@ CMakeFiles\Kalkulator_task_3.dir\clean:
 CMakeFiles\piano_task_4.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target piano_task_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target piano_task_4"
 .PHONY : CMakeFiles\piano_task_4.dir\all
 
 # Build rule for subdir invocation for target.
@@ -242,6 +244,33 @@ piano_task_4: CMakeFiles\piano_task_4.dir\rule
 CMakeFiles\piano_task_4.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\piano_task_4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\piano_task_4.dir\clean
 .PHONY : CMakeFiles\piano_task_4.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Smart_Home_task_5.dir
+
+# All Build rule for target.
+CMakeFiles\Smart_Home_task_5.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Smart_Home_task_5"
+.PHONY : CMakeFiles\Smart_Home_task_5.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Smart_Home_task_5.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Poizone\CLionProjects\CLion_HW19\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Smart_Home_task_5.dir\rule
+
+# Convenience name for target.
+Smart_Home_task_5: CMakeFiles\Smart_Home_task_5.dir\rule
+
+.PHONY : Smart_Home_task_5
+
+# clean rule for target.
+CMakeFiles\Smart_Home_task_5.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_Home_task_5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Smart_Home_task_5.dir\clean
+.PHONY : CMakeFiles\Smart_Home_task_5.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -2,7 +2,8 @@ C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/Kalkulato
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/Shivatel-drobnikh-chisel-task2.dir
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/CLion_HW19_main.dir
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/CLion_HW19_Speedometer.dir
-C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/Kalkulator_task_3.dir
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/piano_task_4.dir
 C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/Smart_Home_task_5.dir
+C:/Users/Poizone/CLionProjects/CLion_HW19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
